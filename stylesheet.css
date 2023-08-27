@@ -1,0 +1,19 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+}
+
+#mainNav {
+    color: white;
+    background-color: #0c66f5;
+    line-height: 55px;
+    text-align: center;
+    height: 55px;
+}
+
+p{
+    margin-left: 5px;
+}
