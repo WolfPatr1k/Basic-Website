@@ -1,22 +1,25 @@
+@font-face {
+    font-family: Dosis;
+    src: url('../fonts/Dosis-VariableFont_wght.ttf') format('truetype')
+}
+
 html {
-    background-color: #202124;
+    background-color: #394867;
     color: white;
-    height: 100%;
     font-family: Dosis;
 }
 
 body{
     height: inherit;
     margin: 0;
+    padding-top: 50px;
 }
 
-#topNav{
-    background-color: #222ce4;
+#topNav {
+    background-color: #212A3E;
     position: fixed;
     top: 0;
     width: 100%;
-    margin-top: 5px;
-    border-radius: 10px;
 }
 
 ul {
@@ -25,7 +28,6 @@ ul {
     margin: 0;
     width: 100%;
     overflow: hidden;
-    border-radius: inherit;
 }
 
 li {
@@ -47,4 +49,21 @@ a:hover{
 
 a:active {
     background-color: rgba(0, 0, 0, 0.4);
+}
+
+#container{
+    margin: 0.5% 0.5% 0 0.5%;
+}
+
+article {
+    background: #28334c;
+    color: white;
+    width: 40%;
+    padding: 0.25% 1%;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    /*
+        Turn back to the shadows
+        YOU SHALL NOT PASS!
+    */
 }
