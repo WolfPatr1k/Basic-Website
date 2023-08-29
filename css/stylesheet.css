@@ -20,6 +20,7 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75);
 }
 
 ul {
@@ -55,15 +56,26 @@ a:active {
     margin: 0.5% 0.5% 0 0.5%;
 }
 
-article {
+article{
+    float: left;
+    width: 75%;
+}
+
+aside{
+    float: right;
+    width: 20%;
+}
+
+.ContentBox {
+    overflow: hidden;
     background: #28334c;
     color: white;
-    width: 40%;
     padding: 0.25% 1%;
     border-radius: 3px;
-    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75);
     /*
         Turn back to the shadows
         YOU SHALL NOT PASS!
     */
 }
+
